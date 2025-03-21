@@ -1,0 +1,11 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio Code settings
+.vscode/
+
+# Others
+*.user
+*.suo
+*.log
