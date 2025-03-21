@@ -26,9 +26,9 @@ class PBKDF2Threaded
 
     static void Main(string[] args)
     {
-        string inputFileReti = "C:\\Users\\gianm\\Desktop\\Progetti C#\\reti.txt";
-        string inputFilePasswords = "C:\\Users\\gianm\\Desktop\\Progetti C#\\passwords.txt";
-        string outputFile = "C:\\Users\\gianm\\Desktop\\Progetti C#\\PMK.txt";
+        string inputFileReti = "<Inserire percorso dove è presente il file reti.txt>";
+        string inputFilePasswords = "<Inserire il percorso dove è presente il file passwords.txt>";
+        string outputFile = "<Inserire il percorso per il file di output che verrà generato>";
 
         List<string> reti = new List<string>();
         List<string> passwords = new List<string>();
